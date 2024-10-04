@@ -22,4 +22,4 @@ jobs:
         user: lndrdev
         template: classic
         base: header, activity, community, repositories, metadata
-        config_timezone: UTC
+        config_timezone: Europe/Berlin
