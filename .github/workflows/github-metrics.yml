@@ -1,5 +1,4 @@
 name: Generate GitHub Metrics
-
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs daily
@@ -20,7 +19,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         committer_token: ${{ secrets.GITHUB_TOKEN }}
-        user: ThatOneCalculator
+        user: lndrdev
         template: classic
         base: header, activity, community, repositories, metadata
         config_timezone: UTC
